@@ -1,0 +1,12 @@
+{
+    "name": "PHP with Apache",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "felixfbecker.php-debug"
+    ],
+    "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php"
+    }
+}
